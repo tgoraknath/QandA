@@ -1,8 +1,8 @@
 {
   "type": "object",
-  "required": ["addrLine1", "city", "state","postalCode"],
+  "required": ["address1", "city", "state","postalCode"],
   "properties": {
-    "addrLine1": {
+    "address1": {
       "type": "string"
     },
     "city": {
@@ -15,7 +15,7 @@
       "type": "string", 
       "pattern": "^\d{5}(?:[-\s]\d{4})?$"
     },
-    "addrLine2": {
+    "address2": {
       "type": "string"
     },
     "country": {
